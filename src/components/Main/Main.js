@@ -11,7 +11,7 @@ const Main = () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setData(data))
-    },[activeTime,breakTime])
+    },[])
     const handleBtn = time => {
         const newtime = [...activeTime,time];
         setActiveTime(newtime);

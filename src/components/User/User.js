@@ -10,7 +10,7 @@ const User = ({time,handleBreak,timeBreak}) => {
             'Exercise done!',
             'success'
           )
-
+        
         
     }
 
