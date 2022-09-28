@@ -6,7 +6,7 @@ img {
 .info {
     position: sticky;
     top: 0;
-    background-color: bisque;
+    background-color: rgb(105, 194, 105);
     padding: 20px;
     border-radius: 8px;
     margin-top: 45px;
@@ -16,6 +16,7 @@ img {
 
 .user {
     display: flex;
+    color: white;
 }
 
 .user h4 {
