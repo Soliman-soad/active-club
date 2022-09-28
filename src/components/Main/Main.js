@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import User from '../User/User';
 import './Main.css';
@@ -7,11 +7,11 @@ const Main = () => {
     const [data ,setData] =useState([]);
     const [activeTime,setActiveTime] =useState([]);
     const[breakTime, setBreakTime] = useState(0)
-    useState(()=>{
+    useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setData(data))
-    },[])
+    },[activeTime,breakTime])
     const handleBtn = time => {
         const newtime = [...activeTime,time];
         setActiveTime(newtime);

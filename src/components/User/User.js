@@ -10,6 +10,8 @@ const User = ({time,handleBreak,timeBreak}) => {
             'Exercise done!',
             'success'
           )
+
+        
     }
 
     return (
@@ -24,10 +26,10 @@ const User = ({time,handleBreak,timeBreak}) => {
             <div>
                 <h3>Add a break</h3>
                 <div className='break'>
-                    <p onClick={(e)=>handleBreak(e.target.innerText)}>2</p>
-                    <p onClick={(e)=>handleBreak(e.target.innerText)}>5</p>
-                    <p onClick={(e)=>handleBreak(e.target.innerText)}>10</p>
-                    <p onClick={(e)=>handleBreak(e.target.innerText)}>15</p>
+                    <p onClick={(e)=>handleBreak(e.target.innerText)}>2s</p>
+                    <p onClick={(e)=>handleBreak(e.target.innerText)}>5s</p>
+                    <p onClick={(e)=>handleBreak(e.target.innerText)}>10s</p>
+                    <p onClick={(e)=>handleBreak(e.target.innerText)}>15s</p>
                 </div>
             </div>
             <div>
@@ -36,7 +38,7 @@ const User = ({time,handleBreak,timeBreak}) => {
                 <h4>Exercise time: </h4>{time.reduce((oldtime,newtime) => oldtime+newtime,0) } <span>s</span>
                 </div>
                 <div className='time'>
-                <h4>Break time: </h4> {localStorage.getItem('timeBreak')} <span>s</span>
+                <h4>Break time: </h4> {localStorage.getItem('timeBreak')} 
                 </div>
             </div>
             <button onClick={handleComplte}>Exercise done!</button>
