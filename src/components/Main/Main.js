@@ -18,6 +18,7 @@ const Main = () => {
     }
     const handleBreak = (timeBreak) => {
         setBreakTime(timeBreak);
+        localStorage.setItem("timeBreak",timeBreak);
     }
     return (
         <div className='main-container'>

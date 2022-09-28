@@ -27,7 +27,7 @@ const User = ({time,handleBreak,timeBreak}) => {
                 <h4>Exercise time: </h4>{time.reduce((oldtime,newtime) => oldtime+newtime,0) } <span>s</span>
                 </div>
                 <div className='time'>
-                <h4>Break time: </h4> {timeBreak} <span>s</span>
+                <h4>Break time: </h4> {localStorage.getItem('timeBreak')} <span>s</span>
                 </div>
             </div>
             <button>Exercise done!</button>
