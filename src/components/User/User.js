@@ -1,7 +1,16 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 import logo from '../../img/my-removebg-preview.png';
 import './User.css';
 const User = ({time,handleBreak,timeBreak}) => {
+
+    const handleComplte = () => {
+        Swal.fire(
+            'Good job!',
+            'Exercise done!',
+            'success'
+          )
+    }
 
     return (
         <div className='info'>
@@ -30,7 +39,7 @@ const User = ({time,handleBreak,timeBreak}) => {
                 <h4>Break time: </h4> {localStorage.getItem('timeBreak')} <span>s</span>
                 </div>
             </div>
-            <button>Exercise done!</button>
+            <button onClick={handleComplte}>Exercise done!</button>
         </div>
     );
 };
