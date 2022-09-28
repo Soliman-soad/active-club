@@ -1,0 +1,29 @@
+.activity-container img {
+    width: 250px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.activity-container {
+    width: 300px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 8px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.383);
+}
+
+.activity-container p {
+    margin: 5px;
+}
+
+.activity-container button {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(100, 100, 167);
+    border-radius: 8px;
+    color: white;
+}

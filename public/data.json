@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "633460b122f913dd9e13e24a",
+    "time": 10,
+    "details": "Hand and finger exercises can help strengthen your hands and fingers, increase your range of motion, and give you pain relief.",
+    "isActive": false,
+    "name": "Push up",
+    "picture": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "_id": "633460b1355419bba7cba901",
+    "time": 10,
+    "details": "Position a cable at the lowest position possible and attach a single handle. · Reach across your body and grab the handle with a neutral grip.",
+    "isActive": false,
+    "name": "shoulder exercise",
+    "picture": "https://images.unsplash.com/photo-1604480133435-25b86862d276?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "_id": "633460b10b9336225ae7be91",
+    "time": 5,
+    "details": "The kettlebell overhead press, when performed correctly, is a full body exercise with extra emphasis on the upper body. ",
+    "isActive": false,
+    "name": "Kettlebell shoulder press",
+    "picture": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1450&q=80"
+  },
+  {
+    "_id": "633460b17a39563c7f195359",
+    "time": 5,
+    "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12  times.Use proper form. Learn to do each exercise correctly.",
+    "isActive": true,
+    "name": "weight lifting",
+    "picture": "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "_id": "633460b1bd03c78a4b2b1154",
+    "time": 10,
+    "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly",
+    "isActive": true,
+    "name": "weight lifting",
+    "picture": "https://images.unsplash.com/photo-1582910184841-2135ce4421bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZpdG5lc3MlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "_id": "633460b1fe0c4d4f841e89aa",
+    "time": 15,
+    "details": "Standing upright, grab the handle and lift your arm to the side (lateral direction). Focus on maintaining a straight arm (or slightly bent in the elbow) ",
+    "isActive": true,
+    "name": "Cable lateral raise",
+    "picture": "https://images.unsplash.com/photo-1604480133080-602261a680df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "_id": "633460b1899f54b3af2511dd",
+    "time": 20,
+    "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly.",
+    "isActive": false,
+    "name": "weight lifting",
+    "picture": "https://images.unsplash.com/photo-1620239158894-d86d21fb657e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "_id": "633460b1949b574f5a932574",
+    "time": 20,
+    "details": "The kettlebell overhead press, when performed correctly, is a full body exercise with extra emphasis on the upper body.",
+    "isActive": false,
+    "name": "Kettlebell shoulder press",
+    "picture": "https://images.unsplash.com/photo-1600026453249-24a43274d65a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+  },
+  {
+    "_id": "633460b1d14dcf4d30859c74",
+    "time": 8,
+    "details": "Position a cable at the lowest position possible and attach a single handle. · Reach across your body and grab the handle with a neutral grip.",
+    "isActive": false,
+    "name": "Roping",
+    "picture": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"
+  },
+  {
+    "_id": "633460b1910c229869ac785c",
+    "time": 18,
+    "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly.",
+    "isActive": false,
+    "name": "weight lifting",
+    "picture": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+  },
+  {
+    "_id": "633460b11b4e022d33d13352",
+    "time": 12,
+    "details": "The kettlebell overhead press is a full body exercise with extra emphasis on the upper body.",
+    "isActive": true,
+    "name": "Kettlebell shoulder",
+    "picture": "https://images.unsplash.com/photo-1601106605547-7423365f86e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+  },
+  {
+    "_id": "633460b1884533f3416d8795",
+    "time": 20,
+    "details": "Exercise is a body activity that enhances or maintains physical fitness and overall health and wellness",
+    "isActive": false,
+    "name": "running",
+    "picture": "https://images.unsplash.com/photo-1579758682665-53a1a614eea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "_id": "633460b10f21f651770e9287",
+    "time": 15,
+    "details": "General health and fitness guidelines for adults aged 19 to 64, including tips on how to achieve 150 minutes of moderate intensity activity a week.",
+    "isActive": true,
+    "name": "mowing the lawn",
+    "picture": "https://images.unsplash.com/photo-1620371350502-999e9a7d80a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
+  }
+]
