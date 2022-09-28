@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../../img/my-removebg-preview.png';
 import './User.css';
-const User = () => {
+const User = ({time}) => {
+
     return (
         <div className='info'>
             <div className='user'>
@@ -23,12 +24,13 @@ const User = () => {
             <div>
                 <h3>Time calculate:</h3>
                 <div className='time'>
-                <h4>Exercise time: </h4> <span>s</span>
+                <h4>Exercise time: </h4> {time.reduce((oldtime,newtime) => oldtime+newtime,0) } <span>s</span>
                 </div>
                 <div className='time'>
                 <h4>Break time: </h4> <span>s</span>
                 </div>
             </div>
+            <button>Exercise done!</button>
         </div>
     );
 };

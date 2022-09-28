@@ -5,19 +5,24 @@ import './Main.css';
 
 const Main = () => {
     const [data ,setData] =useState([]);
+    const [activeTime,setActiveTime] =useState([]);
     useState(()=>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setData(data))
     },[])
+    const handleBtn = time => {
+        const newtime = [...activeTime,time];
+        setActiveTime(newtime);
+    }
     return (
         <div className='main-container'>
             <div className='card-container'>
             {
-                data.map(activity => <Activity activity={activity}></Activity>)
+                data.map(activity => <Activity handleBtn={handleBtn} key={activity._id} activity={activity}></Activity>)
             }
             </div>
-            <User></User>
+            <User time ={activeTime}></User>
         </div>
     );
 };
