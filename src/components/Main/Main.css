@@ -10,3 +10,25 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-container .info {
+        position: relative;
+    }
+}
