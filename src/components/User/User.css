@@ -33,7 +33,9 @@ img {
     border-radius: 100%;
     padding: 20px;
     background-color: white;
+    cursor: pointer;
 }
+
 
 .time {
     background-color: white;
