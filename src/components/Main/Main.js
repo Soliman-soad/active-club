@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Activity from '../Activity/Activity';
+import User from '../User/User';
 import './Main.css';
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
                 data.map(activity => <Activity activity={activity}></Activity>)
             }
             </div>
+            <User></User>
         </div>
     );
 };

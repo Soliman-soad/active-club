@@ -1,0 +1,44 @@
+img {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.info {
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 45px;
+    height: 100vh;
+    margin-left: 10px;
+}
+
+.user {
+    display: flex;
+}
+
+.user h4 {
+    margin-bottom: 0;
+}
+
+.break {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.break p {
+    font-weight: 700;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.time {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
