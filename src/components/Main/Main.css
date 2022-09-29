@@ -16,6 +16,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-container .info {
+        position: relative;
+    }
 }
 
 @media screen and (max-width:767px) {
