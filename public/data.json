@@ -36,7 +36,7 @@
     "time": 10,
     "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly",
     "isActive": true,
-    "name": "weight lifting",
+    "name": "weight lifting mini",
     "picture": "https://images.unsplash.com/photo-1582910184841-2135ce4421bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZpdG5lc3MlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
   },
   {
@@ -52,7 +52,7 @@
     "time": 20,
     "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly.",
     "isActive": false,
-    "name": "weight lifting",
+    "name": "Muscle exercise",
     "picture": "https://images.unsplash.com/photo-1620239158894-d86d21fb657e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
   },
   {
@@ -60,7 +60,7 @@
     "time": 20,
     "details": "The kettlebell overhead press, when performed correctly, is a full body exercise with extra emphasis on the upper body.",
     "isActive": false,
-    "name": "Kettlebell shoulder press",
+    "name": "Kettlebell Knee press",
     "picture": "https://images.unsplash.com/photo-1600026453249-24a43274d65a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
   },
   {
@@ -76,7 +76,7 @@
     "time": 18,
     "details": "Lift an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times. · Use proper form. Learn to do each exercise correctly.",
     "isActive": false,
-    "name": "weight lifting",
+    "name": "Rope jumping",
     "picture": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
   },
   {
